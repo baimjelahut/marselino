@@ -1,0 +1,50 @@
+*{font-family: Verdana, Geneva, Tahoma, sans-serif;}
+.tengah{display: flex;justify-content: center;}
+.card{
+    width:40%;
+    box-shadow:  0 4px 8px 0 rgba(0,0,0, 02);
+    transition: 0.3s;
+}
+.card h1{
+    font-size: 16px;
+    padding: 0px 5;
+}
+.carbody{
+    padding: 8px;
+}
+.cardfooter{
+    padding:  8px;
+    background-color: chartreuse
+    display: flex;
+    justify-content: right;
+}
+.card :hover{
+    box-shadow:  0 8px 16px 0 rgba(0,0,0, 0.2,);
+}
+label{
+    font-size: 14px;
+    font-weigth:bold;
+}
+input[type=text]{
+    width:90%;
+    padding: 12px 20px;
+    margin: 8px 10;
+}
+.btn1{
+    border:none;
+    border-radius: 8px;
+    background-color: darkgreen;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 20px;
+}
+.hsl{
+    font-size: 14px;
+    margin: 18px;
+    height: 200px;
+    width: 90%;
+    border: solid #c0c0c0 1px;
+    padding: 10px;
+    background-color: #ffd2a9;
+}
