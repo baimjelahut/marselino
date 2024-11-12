@@ -1,50 +1,68 @@
-*{font-family: Verdana, Geneva, Tahoma, sans-serif;}
-.tengah{display: flex;justify-content: center;}
-.card{
-    width:40%;
-    box-shadow:  0 4px 8px 0 rgba(0,0,0, 02);
-    transition: 0.3s;
-}
-.card h1{
-    font-size: 16px;
-    padding: 0px 5;
-}
-.carbody{
-    padding: 8px;
-}
-.cardfooter{
-    padding:  8px;
-    background-color: chartreuse
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff; /* Warna latar belakang cerah */
     display: flex;
-    justify-content: right;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
-.card :hover{
-    box-shadow:  0 8px 16px 0 rgba(0,0,0, 0.2,);
+
+.container {
+    background-color: #ffffff; /* Latar belakang putih untuk konten */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    width: 350px; /* Lebar kontainer */
 }
-label{
-    font-size: 14px;
-    font-weigth:bold;
+
+h1 {
+    color: #333; /* Warna judul */
+    text-align: center;
 }
-input[type=text]{
-    width:90%;
-    padding: 12px 20px;
-    margin: 8px 10;
+
+.input-group {
+    margin-bottom: 15px;
 }
-.btn1{
-    border:none;
-    border-radius: 8px;
-    background-color: darkgreen;
-    color: white;
-    font-size: 16px;
-    font-weight: bold;
-    padding: 8px 20px;
+
+label {
+    display: block;
+    margin-bottom: 5px;
 }
-.hsl{
-    font-size: 14px;
-    margin: 18px;
-    height: 200px;
-    width: 90%;
-    border: solid #c0c0c0 1px;
+
+input {
+    width: calc(100% - 20px);
     padding: 10px;
-    background-color: #ffd2a9;
+    border-radius: 5px;
+    border: 1px solid #086ed3;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1900ff; /* Warna hijau cerah */
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #25d851; /* Warna hijau gelap saat hover */
+}
+
+h2 {
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Gaya untuk kolom hasil */
+.result-column {
+    display: block; /* Awalnya tidak terlihat */
+    background-color: #bbff00; /* Latar belakang kolom hasil */
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.result-column p {
+    margin: 5px 0; /* Jarak antar paragraf */
 }
